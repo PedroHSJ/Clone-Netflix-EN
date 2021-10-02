@@ -131,6 +131,11 @@ header .cadastro p {
 
 }
 
+header #email {
+    border-radius: 5px 0 0 5px;
+    border: 1.5px solid #000;
+}
+
 header .email-butao{
     
 
@@ -158,7 +163,7 @@ header .email-butao a{
 
     font-size: 1.2rem;
     
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
 
     
 }
@@ -332,9 +337,9 @@ footer .footer-content {
     background-color: #000;
 
     
-    padding: 30px 150px 30px 180px;
+    padding: 60px 0 60px 290px;
 
-    height: 30vh;
+    height: 50vh;
 }
 
 footer .footer-content p {
@@ -356,70 +361,99 @@ footer .footer-content #numero:hover {
 footer .suport{
     padding: 25px 0px 0px 0px;
     font-size: 0.8rem;
+    
 }
 
-footer .suport #perguntas-freq {
+footer .suport #FAQ {
+    color: #777;
+    text-decoration: none;
+    margin-right: 170px;
+}
+
+footer .suport #FAQ:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+footer .suport #help {
     color: #777;
     text-decoration: none;
     margin-right: 140px;
 }
 
-footer .suport #perguntas-freq:hover {
+footer .suport #help:hover {
     color: #777;
     text-decoration: underline;
 }
 
-footer .suport #centro {
+footer .suport #account {
     color: #777;
     text-decoration: none;
     margin-right: 140px;
 }
 
-footer .suport #centro:hover {
+footer .suport #account:hover {
     color: #777;
     text-decoration: underline;
 }
 
-footer .suport #termos {
+footer .suport #media {
     color: #777;
     text-decoration: none;
     margin-right: 140px;
 }
 
-footer .suport #termos:hover {
-    color: #777;
-    text-decoration: underline;
-}
-
-footer .suport #privacidade {
-    color: #777;
-    text-decoration: none;
-    margin-right: 140px;
-}
-
-footer .suport #privacidade:hover {
+footer .suport #media:hover {
     color: #777;
     text-decoration: underline;
 }
 
 
-footer .suport #pref {
+footer .suport #investor {
     color: #777;
     text-decoration: none;
-    margin-right: 135px;
+    margin-right: 95px;
     
     position: relative;
     top: 20px;
 }
 
-footer .suport #pref:hover {
+footer .suport #investor:hover {
     color: #777;
     text-decoration: underline;
 }
 
 
 
-footer .suport #info {
+footer .suport #jobs {
+    color: #777;
+    text-decoration: none;
+    margin-right: 178px;
+    
+    position: relative;
+    top: 20px;
+}
+
+footer .suport #jobs:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+footer .suport #redeem {
+    color: #777;
+    text-decoration: none;
+    margin-right: 79px;
+    
+    position: relative;
+    top: 20px;
+}
+
+footer .suport #redeem:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+footer .suport #buy {
     color: #777;
     text-decoration: none;
     margin-right: 140px;
@@ -428,14 +462,153 @@ footer .suport #info {
     top: 20px;
 }
 
-footer .suport #info:hover {
+footer .suport #buy:hover {
     color: #777;
     text-decoration: underline;
 }
+
+footer .suport #ways {
+    color: #777;
+    text-decoration: none;
+    margin-right: 110px;
+    
+    position: relative;
+    top: 40px;
+}
+
+footer .suport #ways:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+footer .suport #terms {
+    color: #777;
+    text-decoration: none;
+    margin-right: 127px;
+    
+    position: relative;
+    top: 40px;
+}
+
+footer .suport #terms:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+footer .suport #privacy {
+    color: #777;
+    text-decoration: none;
+    margin-right: 147px;
+    
+    position: relative;
+    top: 40px;
+}
+
+footer .suport #privacy:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+footer .suport #cookie {
+    color: #777;
+    text-decoration: none;
+    margin-right: 140px;
+    
+    position: relative;
+    top: 40px;
+}
+
+footer .suport #cookie:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+footer .suport #corporate {
+    color: #777;
+    text-decoration: none;
+    margin-right: 73px;
+    
+    position: relative;
+    top: 60px;
+}
+
+footer .suport #corporate:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+footer .suport #contact {
+    color: #777;
+    text-decoration: none;
+    margin-right: 142px;
+    
+    position: relative;
+    top: 60px;
+}
+
+footer .suport #contact:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+footer .suport #speed {
+    color: #777;
+    text-decoration: none;
+    margin-right: 127px;
+    
+    position: relative;
+    top: 60px;
+}
+
+footer .suport #speed:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+footer .suport #legal {
+    color: #777;
+    text-decoration: none;
+    margin-right: 140px;
+    
+    position: relative;
+    top: 60px;
+}
+
+footer .suport #legal:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+footer .suport #only {
+    color: #777;
+    text-decoration: none;
+    margin-right: 140px;
+    
+    position: relative;
+    top: 80px;
+}
+
+footer .suport #only:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer .suport .lang{
     position: relative;
-    top: 50px;
+    top: 130px;
 
    
 
@@ -457,10 +630,10 @@ footer .suport #language{
 }
 
 footer .assinatura{
-    text-align: center;
+    
 
     position: relative;
-    top: 80px;
+    top: 180px;
 }
 
 
